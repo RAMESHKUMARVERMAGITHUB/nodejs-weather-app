@@ -19,7 +19,7 @@ spec:
         - containerPort: 3000
         env:
         - name: API_KEY
-          value: "a97b930372be92ff6ee04d8ccd5a5a11"
+          value: "123456789"   #put api key from openweather app
 ---
 apiVersion: v1
 kind: Service
