@@ -61,7 +61,7 @@ pipeline {
         }
         stage('docker deploy'){
             steps{
-                sh "docker run -p 3000:3000 -d rameshkumarverma/nodejs-weather-app:latest"
+                sh "docker run -d -p 3000:3000 -e API_KEY=123456789 rameshkumarverma/nodejs-weather-app:latest"
             }
         }
         stage('Deploy to Kubernets'){
