@@ -19,7 +19,7 @@ spec:
         - containerPort: 3000
         env:
         - name: API_KEY
-          value: "123456789"
+          value: "a97b930372be92ff6ee04d8ccd5a5a11"
 ---
 apiVersion: v1
 kind: Service
